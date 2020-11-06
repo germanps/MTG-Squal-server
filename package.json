@@ -1,0 +1,21 @@
+{
+  "name": "MTG-Squal",
+  "version": "1.0.0",
+  "description": "App where you could save your mtg decks",
+  "main": "index.js",
+  "author": "German Pla",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
